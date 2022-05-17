@@ -21,3 +21,12 @@ HostKeyAlgorithms=+ssh-dss
 
 
 Link detail: https://www.infosecmatter.com/solution-for-ssh-unable-to-negotiate-errors/
+
+
+
+////// loi SSH 
+
+<img width="857" alt="image" src="https://user-images.githubusercontent.com/64687828/168730448-93fffa14-90b1-4a59-be7d-044c7b4b601e.png">
+
+
+**sulotion** : ssh-keygen -f "/Users/huannv/.ssh/known_hosts" -R "113.160.222.222"   /// "113.160.222.222"  ip server linux
